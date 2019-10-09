@@ -1,15 +1,14 @@
 import React , {Component } from 'react'
+import Image from 'react-bootstrap/Image'
 
 class Welcome extends Component{
 
     render(){
-        const image = require("../Images/Enviskates.PNG")
+        const image = require("../Images/Home.JPG")
         return (
 
-            <img src={image} style ={{width:'100%'}}> 
-            </img>
-
-
+            
+            <Image src={image} style ={{width:'100%'}} />
         )
     }
 }
